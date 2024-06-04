@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>LOG IN</h2>
+        <p style="font-size: 9px;">kamu bisa log in menggunakan id dan password yang telah kamu dapat dari panitia</p><br><br>
+        
+        <form action="login.php" method="post">
+            <div class="input-field">
+                <label for="username">USERNAME</label>
+                <input type="text" name="username" id="username" required><br><br>
+            
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <button id="login" type="submit">LOG IN</button>
+        </form><br><br><br><br><br><br>
+        <a href="index.html">
+        <button id="kembali" type="submit" style="float: left; ">kembali</button>
+    </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

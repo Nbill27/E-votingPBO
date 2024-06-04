@@ -1,0 +1,216 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #B6C9E0;
+}
+
+.header {
+  background-color: #024abd;
+  padding: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  background-image: linear-gradient(to bottom left, #024abd, #024abd, #024abd, white, white);
+  padding: 68px 20px;
+  color: #ffff00;
+  position: relative;
+}
+
+.main-content {
+  text-align: center;
+  padding: unset;
+}
+
+.logo {
+  font-size: 40px;
+  color: #fff;
+}
+
+#binainsani{
+  position: relative; 
+  right: 820px;
+  top: 68px;
+  width: 35%;
+ 
+}
+
+#judul1{
+  position: relative; 
+  left: 400px;
+  font-size: 35px;
+  color: yellow;
+  bottom: 85px;
+}
+#judul2{
+  position: relative; 
+  left: 400px;
+  font-size: 15px;
+  margin-left: 30px;
+  bottom: 85px;
+  
+}
+
+#mulai{
+  position: relative; 
+  left: 150px;
+  text-align: center;
+  width: 210px;
+  bottom: 50px;
+  font-size: larger;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #FFF500;
+  color: #000;
+  font-weight: 700;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-top: 20px;
+ 
+
+}
+
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+
+.login-button {
+  background-color: #FFF500;
+  padding: 10px 20px;
+  border-radius: 15px;
+  color: #000;
+}
+
+.main-content {
+  text-align: center;
+  padding: unset;
+}
+
+
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text {
+  max-width: 100%;
+  text-align: right; 
+  
+}
+
+.hero h1 {
+  font-size: 54px;
+  
+}
+
+.hero p {
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+
+
+.hero-image {
+  width: 45%;
+  height: auto;
+  
+}
+
+.candidates {
+  background-image: linear-gradient(0deg, #024abd, #F0F8FF);
+  padding: 50px 20px;
+  color: #004392;
+  font-weight: bold;
+}
+
+.candidates h2 {
+  font-size: 54px;
+}
+
+.candidate-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.candidate {
+  text-align: center;
+}
+
+.candidate img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.instructions {
+  background-color: #fff;
+  padding: 50px 20px;
+  color: #000;
+}
+
+.instructions h2 {
+  font-size: 54px;
+  color: #004392;
+}
+
+.instructions .steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.step {
+  background-color: #004392;
+  color: #FFF500;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  flex-basis: 30%;
+  text-align: center;
+}
+
+.announcements {
+  background-image: linear-gradient(180deg, blue, #00008B, #00008B, #00008B, #00008B );
+  padding: 50px 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px; 
+  text-align: center;
+
+}
+
+.announcements h2 {
+  font-size: 54px;
+  margin: 0;
+}
+
+.announcements p {
+  font-size: 20px;
+  margin: 0;
+}
